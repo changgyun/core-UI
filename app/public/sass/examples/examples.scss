@@ -1,0 +1,23 @@
+// zeki for Sites by conrad
+// https://github.com/conrad-ko/zeki
+// Licensed under MIT Open Source
+
+html, body, .zekiApp {height: 100%}
+
+.columns {
+  float: left;
+  &.menu {
+    color: #fff;
+    width: 25%;
+    height: 100%;
+    background: #3a3a3a;
+    padding: 20px;
+    font-size: 12px;
+    a:link, a:visited {color: #fff;text-decoration: none}
+    a:hover {color: #fff;text-decoration: underline}
+  }
+  &.contents {
+    width: 75%;
+    padding: 20px;
+  }
+}
