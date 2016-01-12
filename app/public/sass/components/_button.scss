@@ -206,7 +206,7 @@ $style: $button-fill
     &.expanded { @include button-expand; }
 
     // Colors
-    @each $name, $color in $foundation-colors {
+    @each $name, $color in $zeki-colors {
       @if $button-fill != hollow {
         &.#{$name} {
           @include button-style($color, auto);
@@ -229,7 +229,7 @@ $style: $button-fill
         @include button-hollow;
         @include button-hollow-style;
 
-        @each $name, $color in $foundation-colors {
+        @each $name, $color in $zeki-colors {
           &.#{$name} {
             @include button-hollow-style($color);
           }

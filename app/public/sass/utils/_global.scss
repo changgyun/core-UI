@@ -103,7 +103,7 @@ $global-left: if($global-text-direction == rtl, right, left);
 $global-right: if($global-text-direction == rtl, left, right);
 
 // Internal map used to iterate through colors, to generate CSS classes with less code
-$foundation-colors: (
+$zeki-colors: (
   primary: $primary-color,
   secondary: $secondary-color,
   success: $success-color,
